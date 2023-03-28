@@ -19,74 +19,69 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/styles.css" />
-
     <title>Weather App</title>
   </head>
   <body>
     <div class="container">
       <div class="weather-app">
-      <div class="card text-bg-dark">
-        <img src="images/clouds.jpg" class="card-img" alt="background" />
-        <div class="card-img-overlay">
-          <p class="card-text"></p>
-          <form id="search-form">
-            <input type="text" placeholder="Enter a city" id="city-input" />
-              </span>
-                <button action="Submit" class="search-button">Search</button>
-              </span>
-                <button action="Submit" class="current-button">Current</button>
-              </span>
-          </form>
-
-          <h1 class="city" id="city"></h1>
-          <ul>
-            <li class="day-date-time" id="current-date">
-            </li>
-            <li class="weather-word" id="description"><em>Sun</em></div>
-            </li>
-          </ul>
-        <div class="temperature">
-          <span id="tempCelsius"></span
-          ><span class="unit c" id="unitCelsius">°C</span>
-        </div>
-        <ul class="hum-wind">
-              <li>Humidity: <span id="humidity"><em></span>%</em></li>
+        <div class="card text-bg-dark">
+          <img src="images/clouds.jpg" class="card-img" alt="background" />
+          <div class="card-img-overlay">
+            <p class="card-text"></p>
+            <form id="search-form">
+              <input type="text" placeholder="Enter a city" id="city-input" />
+              <button action="Submit" class="search-button">Search</button>
+              <button action="Submit" class="current-button">Current</button>
+            </form>
+            <h1 class="city" id="city"></h1>
+            <ul>
+              <li class="day-date-time" id="current-date"></li>
+              <li class="weather-word" id="description"><em>Sun</em></li>
+            </ul>
+            <div class="temperature">
+              <span id="tempCelsius"></span
+              ><span class="unit c" id="unitCelsius">°C</span>
+            </div>
+            <ul class="hum-wind">
+              <li>Humidity: <span id="humidity"></span><em>%</em></li>
               <li>Wind: <span id="wind"></span><em>km/h</em></li>
-        </ul>
-        
-      
-          <ul class="row">
-            <li class="col">
-              WED <br />
-              <div class="emoji-1">☀️</div>
-              <div>15°C</div>
-            </li>
-            <li class="col">THU<br />
-              <div class="emoji-1">🌥️</div>
-              <div>15°C</div>
-            </li>
-            <li class="col">FRI<br />
-              <div class="emoji-1">🌧️</div>
-              <div>15°C</div>
-            </li>
-            <li class="col">SAT<br />
-              <div class="emoji-1">🌤️</div>
-              <div>15°C</div>
-            </li>
-            <li class="col">SUN<br />
-              <div class="emoji-1">❄️</div>
-              <div>15°C</div>
-            </li>   
+            </ul>
+            <ul class="row">
+              <li class="col">
+                WED <br />
+                <div class="emoji-1">☀️</div>
+                <div>15°C</div>
+              </li>
+              <li class="col">
+                THU<br />
+                <div class="emoji-1">🌥️</div>
+                <div>15°C</div>
+              </li>
+              <li class="col">
+                FRI<br />
+                <div class="emoji-1">🌧️</div>
+                <div>15°C</div>
+              </li>
+              <li class="col">
+                SAT<br />
+                <div class="emoji-1">🌤️</div>
+                <div>15°C</div>
+              </li>
+              <li class="col">
+                SUN<br />
+                <div class="emoji-1">❄️</div>
+                <div>15°C</div>
+              </li>
+
+              <script src="src/index.js"></script>
+              <script
+                src="https://kit.fontawesome.com/5ac3755ea1.js"
+                crossorigin="anonymous"
+              ></script>
+            </ul>
           </div>
         </div>
-      
       </div>
-    </div>      
     </div>
-    <script src="src/index.js"></script>
-    <script
-      src="https://kit.fontawesome.com/5ac3755ea1.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
